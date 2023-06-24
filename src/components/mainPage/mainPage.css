@@ -1,0 +1,48 @@
+Body{
+    background-color: #F5F7F9;
+}
+
+navbar{
+    display: flex;
+    width: 100%;
+    background-color:white ;
+    height: 100px;
+    color: black;
+    
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+li{
+    padding: 20px;
+    padding-left: 50px;
+    font-weight: bold;
+    color: black;
+
+    
+    
+    
+}
+.nav-brand{
+    list-style: none;
+    margin-right: 170px;
+    padding-bottom: 20px;
+}
+.sterling{
+    color: black;
+    font-size: larger;
+    position: relative;
+}
+.home{
+    background-color: red;
+    border-radius: 2px;
+    margin-bottom: 0%;
+
+
+}
+.form-input{
+    display: flex;
+}

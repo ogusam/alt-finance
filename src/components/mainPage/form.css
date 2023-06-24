@@ -1,0 +1,74 @@
+.form-input{
+    
+    
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #e1e3eb
+}
+
+
+.sub-main {
+    
+    justify-content: center;
+    height: 650px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 5px; 
+    background-color: white;
+  }
+
+  input{
+    width: 10px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+button{
+    width:100% ;
+    height: 50px;
+    background-color: red;
+}
+.custom-control-input{
+    width: 15px;
+}
+.custom-control-label{
+    padding-bottom: 50px;
+}
+.custom-control custom-checkbox{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    width: 100%;
+}
+
+.signup_container{
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #e1e3eb
+}
+.signup-form{
+    justify-content: center;
+    height: 650px;
+    width: 30%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 5px; 
+    background-color: white;
+}
+.form{
+    width: 70%;
+    justify-content: center;
+    margin-left: 40px;
+}
