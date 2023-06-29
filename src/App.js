@@ -3,9 +3,9 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/navigation/Header';
 import Home from './components/Home';
-import MainPage from './components/mainPage/MainPage';
 import Login from './components/mainPage/Login'
 import SignUp from './components/mainPage/SignUp';
+import './components/mainPage/form.css';
 function App() {
   return (
     <>
@@ -14,7 +14,6 @@ function App() {
     <Routes>
       
       <Route path='/' element={<Home/>}/>
-      <Route path='/mainPage' element={<MainPage/>}/>
       <Route path='/signIn' element={<Login/>}/>
       <Route path='/signup' element={<SignUp/>}/>
     </Routes>

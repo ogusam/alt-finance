@@ -1,4 +1,5 @@
-.form-input{
+
+    .form-input{
     
     
     text-align: center;
@@ -22,18 +23,19 @@
   }
 
   input{
-    width: 10px;
+    width: 70%;
     height: 50px;
     border-radius: 5px;
     box-shadow: none;
     border: none;
     outline: none;
-    background-color: #fff;
+    background-color: whitesmoke;
 }
 button{
-    width:100% ;
+    width:70% ;
     height: 50px;
     background-color: red;
+    border-radius: 5px;
 }
 .custom-control-input{
     width: 15px;
@@ -47,7 +49,8 @@ button{
     flex-direction: column;
 }
 .btn{
-    width: 100%;
+    width: 70%;
+    margin: 20px;
 }
 
 .signup_container{
@@ -61,14 +64,10 @@ button{
 .signup-form{
     justify-content: center;
     height: 650px;
-    width: 30%;
+    width: 40%;
     box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
     padding-top: 30px;
     border-radius: 5px; 
     background-color: white;
-}
-.form{
-    width: 70%;
-    justify-content: center;
-    margin-left: 40px;
+    
 }

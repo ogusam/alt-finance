@@ -19,7 +19,8 @@ function validation(values) {
         error.password ="wrong password"
     }
 
-    if(String(values.confirm_password)!==String(values.password)){
+    if(String(values.confirm_password)!==String(values.password))
+    {
         error.confirm_password = "password didnot match"
     }
     return error;
