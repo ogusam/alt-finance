@@ -43,7 +43,7 @@ setValues({...values, [e.target.name]:[e.target.value]})
                          onChange={handleInput} />
                          {errors.email && <p style={{color:"red"}}>{errors.email}</p>}
                    <br/>
-                   <label>Password</label>
+                   <label htmlFor="password">Password</label>
                    <br/>
                    <input type="password" placeholder="Enter password"
                    name='password'
